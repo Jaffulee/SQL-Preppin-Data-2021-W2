@@ -1,3 +1,5 @@
+--Written in Snowflake 
+
 --Use regex to grab text from model
 SELECT REGEXP_SUBSTR(w22021.model,'[A-Z]+') AS brand
     ,w22021.bike_type
